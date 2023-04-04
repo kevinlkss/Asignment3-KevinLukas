@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    align-items: center;
+    background: black;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 32px;
+    background: black;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    color: white;
+    margin-left: 20px;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(29, 29, 29, 0.5);
+
+}
+
+.container {
+    width: fit-content;
+    margin: auto;
+    padding: 20px 50px 20px 50px;
+    margin-top: 80px;
+    border-radius: 32px;
+    background: orange;
+    box-shadow: 20px 20px 60px black, -20px -20px 60px black;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#container > div {
+    width: 200px;
+    height: 200px;
+}
+
+.activeCasesDiv {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: inset;
+}
+
+.newCasesDiv {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: inset;
+}
+
+.recoveredCasesDiv {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: inset;
+}
+
+.totalCasesDiv {
+    background-color:white;
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: inset;
+}
+
+.totalDeathDiv{
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: inset;
+}
+
+.totalTestDiv {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: inset;
+}
+
+input{
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+}
